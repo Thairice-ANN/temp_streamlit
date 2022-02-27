@@ -2,12 +2,11 @@ from gtts import gTTS
 import streamlit as st
 
 def main():
-	st.title('君へ')
-	text = st.text_input(label='Message',value='Fight!')
+	st.title('マス君へ')
 
 	if st.button('Speak'):
 		audio = 'speech.mp3'
-		tts = gTTS(text=text, lang='ja')
+		tts = gTTS(text='マス君、漫才がんばってね', lang='ja')
 		tts.save(audio)
 		st.audio(audio)
 
