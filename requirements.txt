@@ -1,3 +1,3 @@
-from gtts import gTTS
-import win32com.client as wincl
-import streamlit as st
+gTTS==2.2.3
+pywin32==303
+streamlit==1.6.0
