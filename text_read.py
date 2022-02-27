@@ -1,5 +1,4 @@
 from gtts import gTTS
-import win32com.client as wincl
 import streamlit as st
 
 def main():
