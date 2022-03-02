@@ -13,15 +13,6 @@ def df_from_dict(Test):
 	df = pd.DataFrame(data=data,index=Test.keys(),columns=get_values_list(Test))
 	return df
 
-#Make_Test_Contents
-"""
-TestID_list = ['R051','R052','R053']
-Parameter_list = ['min','max','Param1','Param2','Param3','Param4','Param5','Param8','Param10','Param11']
-
-TestIDs = st.multiselect("Choose TestID", TestID_list)
-Parameters = st.multiselect("Choose Parameter", Parameter_list)
-"""
-
 #Make DataFrame, Show TestSheet
 R051_A = {('R051','A'):['min','max','Param1']}
 R051_B = {('R051','B'):['min','max','Param1']}
